@@ -1,0 +1,97 @@
+
+table {
+    margin: 6% auto;
+    width: 360px;
+}
+
+body {
+    background: linear-gradient(0.25turn, #4BFBFB, #F0F6B2 ,#DCF7AB);
+    font-family: 'Mali', cursive;
+}
+
+table {
+    background-color: #f7f7f7;
+    border-collapse: collapse;
+    border: none; 
+    box-shadow: 0 0 3px gainsboro;
+}
+
+.fa-plus {
+    float: right;
+}
+
+span{
+    color : white;
+    background-color: red;
+    height: 40px;
+    width: 0;
+    text-align: center;
+    display: inline-block;
+    line-height: 40px;
+    margin-right: 20px;
+    transition: linear 0.3s;
+    opacity: 0;
+}
+
+tr:hover span {
+    width: 40px;
+    opacity: 1.0;
+}
+
+tr {
+    height: 40px;
+}
+
+ .add {
+     color: gray;
+     text-decoration: line-through;
+ }
+
+  th {
+      text-align: left;
+     color: white;
+     background-color: steelblue;
+     font-weight : normal; 
+     padding: 5px;
+     padding-left: 20px;
+ }
+
+ input {
+     width: 100%;
+     height: 40px;
+     margin: 0;
+     padding: 5px;
+     padding-left: 20px;
+     border: 0;
+     background-color: gainsboro;
+     box-sizing: border-box;
+     font-size: 18px;
+     color:steelblue;
+     font-weight: normal;
+ }
+
+ input:focus{
+     outline: none;
+     background-color: white;
+     border: 3px solid steelblue;
+ }
+
+ tr:nth-child(even){
+     background-color:gainsboro;
+ }
+
+ tr:nth-child(odd){
+     background-color: white;
+ }
+
+ td {
+     padding: 0;
+     height: 40px;
+     width: 100%;
+     color: #666;
+     height: 40px;
+ }
+
+ tr:nth-of-type(2) td{
+     padding: 0;
+ }
